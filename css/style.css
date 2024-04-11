@@ -1,5 +1,3 @@
-/* font-family: "Ubuntu", sans-serif; */
-
 .maincontainer {
     width: min(100%, 1440px);
     margin: auto;
@@ -51,13 +49,12 @@ header {
 /* section  */
 
 section {
-    /* display: flex; */
     margin: auto;
     padding: 94px 98px 135px;
     background-color: #DDEAF8;
 }
 
-h2 {
+.sectiontitle {
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-size: 32px;
@@ -92,4 +89,35 @@ h2 {
     font-size: 20px;
     line-height: 22.98px;
     margin-top: 33px;
+}
+
+/* footer  */
+footer {
+    /* width: 1440px; */
+    background-color: #758BFD;
+    padding: 75px 98px 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacttitle {
+    font-family: Century Gothic;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.socials {
+    display: flex;
+    margin-top: 20px;
+    width: 114px;
+    justify-content: space-between;
+}
+
+.payment {
+    display: flex;
+    column-gap: 11px;
 }
